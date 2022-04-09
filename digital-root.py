@@ -10,5 +10,5 @@ def digital_root(n):
 
 # Test
 n = 123456789
-N = digit_root(sum_of_integers(n))
+N = digital_root(sum_of_integers(n))
 print(f'The sum of the digits in the sum of the first {n} positive integer is {N}')
